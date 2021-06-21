@@ -74,9 +74,21 @@ header {width: 100%; height: 90px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); po
 .smart .row .guide:first-child {border-right: 1px solid #ddd;}
 .smart .row .guide h3 {margin-bottom: 30px;}
 
+/*section.issue*/
+.news {width: 1400px; height: auto; margin: 0 auto; overflow: hidden;}
+.news .issue {margin-top: 50px; width: 49.25%; height: 280px; background-image: url(../img/img_08.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; float: left; margin-right: 1.5%;}
+.news .issue:nth-child(2) {margin-right: 0; background-image: url(../img/img_09.jpg);}
+.news .issue h2 {margin-top: 10%; margin-left: 10%; }
+.news .issue p {font-size: 15px; color: #333; margin-top: 20px; margin-left: 10%;}
+.news .issue p .num {font-size: 14px; padding: 3px 7px; background: #7f8c97; border-radius: 50%; }
 
+/*footer*/
+footer {width: 100%; height: auto; background: #454545; color: #adadad; overflow: hidden;}
+footer .adress {width: 1400px; margin: 0 auto; line-height: 1.7;}
+footer .adress p {float: left; margin: 50px; text-align: center;}
+footer .adress .flogo {float: right; padding-top: 30px;}
+footer .adress .copy {font-size: 14px;}
 
-
-
-
-
+.top {float: right; margin-right: 30px; margin-bottom: 30px; width: 80px; height: 80px; background: #454545; border-radius: 50%; background-image: url(../img/arrow.JPG); background-repeat: no-repeat; background-size: 25px; background-position: top; position: relative}
+.top a {display: block; width: 100%; height: 100%;}
+.top p { font-size: 16px; font-weight: bold; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
